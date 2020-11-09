@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./asset/svg/K Code Head.svg" />
+    <meta
+      name="description"
+      content="My name is Kharnthorn Tupmongkol and this is my project portfolio website"
+    />
+    <meta
+      name="keywords"
+      content="Kharn,Kharnthorn,Tupmongkol,Web,Developer,Frontend "
+    />
+    <link rel="stylesheet" href="./asset/css/reset.css" />
+    <link rel="stylesheet" href="./asset/css/style.css" />
+    <title>K Code</title>
+  </head>
+  <body>
+    <header class="header container">
+      <nav class="navbar">
+        <div class="header-icon container">
+          <img
+            src="./asset/svg/K Code Header.svg"
+            alt="KT header logo"
+            clas="title-icon"
+          />
+        </div>
+        <div class="links">
+          <a class="link" href="#aboutMe">About Me</a>
+          <a class="link" href="#project">Projects</a>
+          <a class="link" href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+    <main class="main container">
+      <section class="topPage">
+        <div class="logo container">
+          <img id="logo" src="./asset/svg/K Code Logo.svg" alt="KT Logo" />
+        </div>
+      </section>
+      <section class="aboutMe container">
+        <div class="h1 container visibility">
+          <h1>
+            I am Kharn Tupmongkol,<br />
+            a web developer
+          </h1>
+        </div>
+        <div class="photo container">
+          <img
+            class="photo me"
+            id="aboutMe"
+            src="./asset/jpg/me.jpg"
+            alt="picture of me"
+          />
+        </div>
+        <div class="text container">
+          <h2 id="me">About Me</h2>
+          <p>
+            My name is Kharnthorn Tupmongkol but most people just call me Kharn.
+            I currently live in London, UK, having recently moved from New
+            Zealand. I have been in the workforce for over 10 years, 5 of those
+            were within the supply chain area. I took up coding last year and
+            found the challenges to be stimulating and rewarding. My goal now is
+            to be a proficient fullstack web developer.
+          </p>
+          <h2>My current tech stack</h2>
+          <section class="tech-list container">
+            <div class="tech card">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg"
+                alt="html5"
+                class="tech-image"
+              />
+              <div class="tech-text">
+                <span>HTML</span>
+              </div>
+            </div>
+            <div class="tech card">
+              <img src="./asset/svg/css3.svg" alt="CSS" class="tech-image" />
+              <div class="tech-text">
+                <span>CSS</span>
+              </div>
+            </div>
+            <div class="tech card">
+              <img
+                src="./asset/svg/logo-javascript.svg"
+                alt="Javascript"
+                class="tech-image"
+              />
+              <div class="tech-text">
+                <span>Javascript</span>
+              </div>
+            </div>
+            <div class="tech card">
+              <img
+                src="./asset/svg/react-2.svg"
+                alt="React"
+                class="tech-image"
+              />
+              <div class="tech-text">
+                <span>React</span>
+              </div>
+            </div>
+            <div class="tech card">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Git_icon.svg"
+                alt="Git"
+                class="tech-image"
+              />
+              <div class="tech-text">
+                <span>Git</span>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+      <section class="project container">
+        <h2 id="project">My projects</h2>
+        <div class="project-list container">
+          <div class="project-card">
+            <div class="text container">
+              <h3>Movie Search Web App (React)</h3>
+              <p>
+                A React personal project where the user can search a movie title
+                and look for its' rating and description. This basic web app
+                parse the user input into a request through an API and render
+                the returned result in the same page below. This is achieved by
+                using React Hooks, useState.
+              </p>
+              <p>
+                The source code can be viewed <a href="#">here</a> or click the
+                image to try out the demo.
+              </p>
+              <div class="project-image container">
+                <a href="https://movie-search-kharn.netlify.app/">
+                  <img
+                    class="project-image"
+                    src="./asset/png/Movie Search App.PNG"
+                    alt="screenshot of the Movie Search App"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="project-card">
+              <div class="text container">
+                <h3>TODO App</h3>
+                <p>
+                  Everyone favourite project, a Todo App. The user type their
+                  todo item and it will populate the item on the same page once
+                  an enter key is pressed. The user can cross off the item list
+                  and also delete the said item from the list. The list will
+                  also persist even if the user refresh or move away from the
+                  page. This was built with a vanilla JS with ES6 syntax where I
+                  can. The persists state was achieved by store the items and
+                  its key in a localstorage area and recall them when the web
+                  page is rerendered.
+                </p>
+                <p>
+                  The source code can be viewed
+                  <a href="https://github.com/KDOGE007/todo">here</a> or click
+                  the image to try out the demo.
+                </p>
+                <div class="project-image container">
+                  <a href="https://kdoge007.github.io/todo/"
+                    ><img
+                      class="project-image"
+                      src="./asset/png/todo.PNG"
+                      alt="screenshot of the Todo App"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact container">
+        <h2 id="contact">My contact</h2>
+        <div class="text container">
+          <p>
+            If you would like to get in touch, I can be connected via the below:
+          </p>
+          <div class="contact-list container">
+            <a href="https://www.linkedin.com/in/kharntupmongkol/"
+              ><img
+                class="contact-logo"
+                src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Linkedin_icon.svg"
+                alt="LinkedIn logo"
+              />LinkedIn</a
+            >
+            <a href="https://twitter.com/Kdoge007"
+              ><img
+                class="contact-logo"
+                src="https://upload.wikimedia.org/wikipedia/sco/9/9f/Twitter_bird_logo_2012.svg"
+                alt="Twitter logo"
+              />Twitter</a
+            >
+            <a href="https://github.com/KDOGE007"
+              ><img
+                class="contact-logo"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/240px-Octicons-mark-github.svg.png"
+                alt="Github logo"
+              />Github</a
+            >
+            <a href="mailto: k.code@001@google.com"
+              ><img
+                class="contact-logo"
+                src="./asset/svg/email.svg"
+                alt="Email logo"
+              />Email</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
