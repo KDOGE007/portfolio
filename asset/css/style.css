@@ -17,7 +17,6 @@ nav.navbar {
   background-color: #333;
   display: inline-flex;
   justify-content: space-between;
-  height: 6.5vh;
 }
 
 .links a {
@@ -148,13 +147,13 @@ p {
 
 @media screen and (min-width: 768px) {
   nav.navbar {
-    height: 6.5vh;
+    height: 6.7vh;
   }
   .links a {
     font-size: 25px;
   }
   .topPage {
-    height: 93.5vh;
+    height: 93.3vh;
   }
   #logo {
     margin: 7% auto;
