@@ -98,16 +98,16 @@ body {
   background: rgb(252, 251, 248);
 }
 h2 {
-  font-size: 1.8rem;
+  font-size: 2rem;
   margin: 1rem;
 }
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
 p {
-  font-size: 1.2rem;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+  font-size: 1.4rem;
+  margin: 1rem 0;
+  line-height: 1.8rem;
 }
 
 .tech-image {
@@ -121,6 +121,7 @@ p {
   justify-content: center;
 }
 .tech-list.container {
+  margin-top: 1.5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -133,13 +134,16 @@ p {
 }
 
 .contact-list {
-  display: flex;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 .contact-logo {
   width: 15px;
   height: 15px;
   margin-right: 0.2rem;
+}
+.contact-list a {
+  margin: 1rem;
 }
 
 @media screen and (min-width: 768px) {
