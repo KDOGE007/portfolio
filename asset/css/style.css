@@ -13,9 +13,6 @@ html {
   flex-direction: column;
   justify-content: center;
 }
-.title-icon {
-  display: flex;
-}
 
 nav.navbar {
   width: 100%;
