@@ -9,6 +9,12 @@ html {
 
 .header-icon {
   background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.title-icon {
+  display: flex;
 }
 
 nav.navbar {
