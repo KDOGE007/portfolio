@@ -155,6 +155,7 @@ p {
   }
   .links a {
     font-size: 25px;
+    height: 6.7vh;
   }
   .topPage {
     height: 93.3vh;
@@ -194,5 +195,17 @@ p {
   }
   .contact a {
     font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .links a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 1.5rem 0.5rem 1.6rem;
+    text-decoration: none;
+    font-size: 1rem;
   }
 }
