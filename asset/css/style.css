@@ -113,21 +113,26 @@ p {
   line-height: 1.8rem;
 }
 
+.tech-list.container {
+  margin-top: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
 .tech-image {
   width: 50px;
   height: 50px;
-  display: flex;
+}
+
+.tech-card {
+  display: grid;
   justify-content: center;
 }
+
 .tech-text {
-  display: flex;
+  display: grid;
   justify-content: center;
-}
-.tech-list.container {
-  margin-top: 1.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 
 .project-image {
@@ -179,7 +184,20 @@ p {
   .tech-image {
     width: 100px;
     height: 100px;
+    display: flex;
+    justify-content: center;
   }
+  .tech-text {
+    display: flex;
+    justify-content: center;
+  }
+  .tech-list.container {
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
   p {
     font-size: 1.6rem;
   }
